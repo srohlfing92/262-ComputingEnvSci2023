@@ -1,0 +1,32 @@
+---
+title: "Why I am taking 262"
+author: "Sarah Rohlfing"
+date: "2023-02-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+The reason I am taking this class is to get some refreshers on using R and understanding best practices on data organization and analysis. As I am approaching graduation I want to feel comfortable saying I am capable of some data analysis. I also want to make sure that any data I need to collect in my future career can be layed out in a way that is easy for any data scientist to read and anylize. 
+
+I never did any coding prior to attending Bren. I did well in Alison Horst's Class (206), but other than that, I only really scrambled to use it for 4 homework assignments in the environmental economics class in the Spring of 2022. It was especially challenging because I had to relearn a bit of R and I had never written functions before. In the econ class we were not taught how to write functions and my homework often looked so chaotic, even I didn't want to take the time to go back and fix problems. I found that I had to keep creating new variables and I gave them names that were not intuitive and when I started working with other classmates, my lack of notes made it much harder to follow. I definetly want to ensure that I can complete some basic tasks before I graduate. 
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
